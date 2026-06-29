@@ -5,6 +5,7 @@ Individual testbenches and a top-level integration testbench are used to validat
 Final module should compute 16-bit product over multiple cycles using a shift-and-add datapath plus a control FSM. 
 
 **Module1 - multi_reg**
+
 The **multi_reg module** is the datapath register block of the sequential shift-and-add multiplier.
 It stores and manipulates the three main registers used during multiplication:
 
