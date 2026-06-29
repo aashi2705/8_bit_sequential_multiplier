@@ -1,8 +1,13 @@
 This project implements an **8-bit Sequential Shift-and-Add Multiplier** in SystemVerilog using a modular RTL design.
+
 The multiplier computes the product of two 8-bit unsigned numbers over multiple clock cycles by repeatedly performing conditional addition and right-shift operations under the control of a finite state machine (FSM).
+
 The design is divided into independent modules for the datapath, control logic, and counter, enabling modular development and verification.
+
 Individual testbenches and a top-level integration testbench are used to validate the functionality of the complete multiplier.
+
 Final module should compute 16-bit product over multiple cycles using a shift-and-add datapath plus a control FSM. 
+
 
 **Module1 - multi_reg**
 
