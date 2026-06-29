@@ -1,0 +1,107 @@
+$date
+	Mon Jun 29 17:02:35 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_add_decision $end
+$var wire 9 ! sum [8:0] $end
+$var wire 1 " do_add $end
+$var reg 9 # A [8:0] $end
+$var reg 8 $ M [7:0] $end
+$var reg 1 % Q_lsb $end
+$var reg 1 & expected_do_add $end
+$var reg 9 ' expected_sum [8:0] $end
+$scope module dut $end
+$var wire 9 ( A [8:0] $end
+$var wire 8 ) M [7:0] $end
+$var wire 1 % Q_lsb $end
+$var wire 1 * do_add $end
+$var wire 9 + sum [8:0] $end
+$upscope $end
+$scope task apply_inputs $end
+$var reg 9 , A_in [8:0] $end
+$var reg 8 - M_in [7:0] $end
+$var reg 1 . Q_lsb_in $end
+$upscope $end
+$scope task checker_scoreboard $end
+$var reg 1 / expected_do_add $end
+$var reg 9 0 expected_sum [8:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 0
+x/
+1.
+b11 -
+b101 ,
+b1000 +
+1*
+b11 )
+b101 (
+b0 '
+0&
+1%
+b11 $
+b101 #
+1"
+b1000 !
+$end
+#10000
+0"
+0*
+0%
+b111 $
+b111 )
+b10001 !
+b10001 +
+b1010 #
+b1010 (
+0.
+b111 -
+b1010 ,
+1/
+b1000 0
+1&
+b1000 '
+#20000
+b0 $
+b0 )
+b0 !
+b0 +
+b0 #
+b0 (
+b0 -
+b0 ,
+0/
+b10001 0
+0&
+b10001 '
+#30000
+1"
+1*
+1%
+b11111111 $
+b11111111 )
+b111111110 !
+b111111110 +
+b11111111 #
+b11111111 (
+1.
+b11111111 -
+b11111111 ,
+b0 0
+b0 '
+#40000
+1/
+b111111110 0
+1&
+b111111110 '
